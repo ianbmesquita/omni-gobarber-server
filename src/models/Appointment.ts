@@ -1,11 +1,11 @@
 import { uuid } from 'uuidv4';
 
 class Appointment {
-    private id: string;
+    id: string;
 
-    private provider: string;
+    provider: string;
 
-    private date: Date;
+    date: Date;
 
     constructor(provider: string, date: Date) {
         this.id = uuid();

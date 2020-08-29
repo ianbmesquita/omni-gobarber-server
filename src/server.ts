@@ -13,9 +13,9 @@ app.use(express.json());
 app.use(routes);
 
 app.get('/', (request, response) =>
-    response.json({ message: 'Hello GoStack' }),
+  response.json({ message: 'Hello GoStack' }),
 );
 
 app.listen(3333, () => {
-    console.log('Servidor conectado na porta 3333...');
+  console.log('Servidor conectado na porta 3333...');
 });
